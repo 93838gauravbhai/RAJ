@@ -42,7 +42,7 @@ redeem_codes_collection = db['redeem_codes0']
 
 # Bot Configuration
 
-TELEGRAM_BOT_TOKEN = '7567349538:AAFHZJ5lEiZjcSY-umnevWXZeGuRprHDhqc'
+TELEGRAM_BOT_TOKEN = '7567349538:AAEgRwaWf-YtCtHRB_BSdj0IrfrArAF7fks'
 
 ADMIN_USER_ID = 6539807903 # Replace with your admin user ID
 
