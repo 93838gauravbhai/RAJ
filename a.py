@@ -42,7 +42,7 @@ redeem_codes_collection = db['redeem_codes0']
 
 # Bot Configuration
 
-TELEGRAM_BOT_TOKEN = '7567349538:AAEgRwaWf-YtCtHRB_BSdj0IrfrArAF7fks'
+TELEGRAM_BOT_TOKEN = '7567349538:AAHYEF7NCFsuajNf9DimOz_zV4GpxEk7OKI'
 
 ADMIN_USER_ID = 6539807903 # Replace with your admin user ID
 
@@ -318,7 +318,7 @@ async def run_attack(chat_id, ip, port, duration, context):
 
         process = await asyncio.create_subprocess_shell(
 
-            f"./smokey {ip} {port} {duration} 1800",
+            f"./bgmi {ip} {port} {duration} 1300",
 
             stdout=asyncio.subprocess.PIPE,
 
